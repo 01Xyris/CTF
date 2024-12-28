@@ -1,0 +1,948 @@
+Input File: shellcode.asm
+============================================================
+
+Encrypted Block 1
+----------------------------------------
+XOR Key: 0x5c
+Start Address: 0x000010d4
+Block Size: 78 bytes
+
+Original encrypted bytes:
+5c 34 28 28 2c 2f 66 73 73 2e 3d 2b 72 3b 35 28 34 29 3e 29 2f 39 2e 3f 33 32 28 39 32 28 72 3f 33 31 73 32 33 14 35 32 28 14 39 2e 39 73 28 39 2f 28 73 2e 39 3a 2f 73 34 39 3d 38 2f 73 31 3d 35 32 73 3b 35 28 34 29 3e 72 2c 32 3b 5c
+
+Decrypted data (hex):
+00 68 74 74 70 73 3a 2f 2f 72 61 77 2e 67 69 74 68 75 62 75 73 65 72 63 6f 6e 74 65 6e 74 2e 63 6f 6d 2f 6e 6f 48 69 6e 74 48 65 72 65 2f 74 65 73 74 2f 72 65 66 73 2f 68 65 61 64 73 2f 6d 61 69 6e 2f 67 69 74 68 75 62 2e 70 6e 67 00
+
+ASCII interpretation:
+ https://raw.githubusercontent.com/noHintHere/test/refs/heads/main/github.png 
+
+UTF-8 interpretation:
+ https://raw.githubusercontent.com/noHintHere/test/refs/heads/main/github.png 
+
+Hexdump view:
+0000:  00 68 74 74 70 73 3a 2f 2f 72 61 77 2e 67 69 74   |.https://raw.git|
+0010:  68 75 62 75 73 65 72 63 6f 6e 74 65 6e 74 2e 63   |hubusercontent.c|
+0020:  6f 6d 2f 6e 6f 48 69 6e 74 48 65 72 65 2f 74 65   |om/noHintHere/te|
+0030:  73 74 2f 72 65 66 73 2f 68 65 61 64 73 2f 6d 61   |st/refs/heads/ma|
+0040:  69 6e 2f 67 69 74 68 75 62 2e 70 6e 67 00         |in/github.png.|
+
+Binary data saved to: decoded_block_1.bin
+
+============================================================
+
+Encrypted Block 2
+----------------------------------------
+XOR Key: 0x36
+Start Address: 0x0000147c
+Block Size: 32 bytes
+
+Original encrypted bytes:
+36 75 0c 6a 63 45 53 44 45 6a 66 43 54 5a 5f 55 6a 42 53 5b 46 69 5f 5b 57 51 53 18 46 58 51 36
+
+Decrypted data (hex):
+00 43 3a 5c 55 73 65 72 73 5c 50 75 62 6c 69 63 5c 74 65 6d 70 5f 69 6d 61 67 65 2e 70 6e 67 00
+
+ASCII interpretation:
+ C:\Users\Public\temp_image.png 
+
+UTF-8 interpretation:
+ C:\Users\Public\temp_image.png 
+
+Hexdump view:
+0000:  00 43 3a 5c 55 73 65 72 73 5c 50 75 62 6c 69 63   |.C:\Users\Public|
+0010:  5c 74 65 6d 70 5f 69 6d 61 67 65 2e 70 6e 67 00   |\temp_image.png.|
+
+Binary data saved to: decoded_block_2.bin
+
+============================================================
+
+Encrypted Block 3
+----------------------------------------
+XOR Key: 0x9e
+Start Address: 0x0000160d
+Block Size: 9 bytes
+
+Original encrypted bytes:
+9e d3 e7 df f9 fb f0 ea 9e
+
+Decrypted data (hex):
+00 4d 79 41 67 65 6e 74 00
+
+ASCII interpretation:
+ MyAgent 
+
+UTF-8 interpretation:
+ MyAgent 
+
+Hexdump view:
+0000:  00 4d 79 41 67 65 6e 74 00                        |.MyAgent.|
+
+Binary data saved to: decoded_block_3.bin
+
+============================================================
+
+Encrypted Block 4
+----------------------------------------
+XOR Key: 0xa9
+Start Address: 0x00001df0
+Block Size: 12 bytes
+
+Original encrypted bytes:
+a9 dc da cc db 9a 9b 87 cd c5 c5 a9
+
+Decrypted data (hex):
+00 75 73 65 72 33 32 2e 64 6c 6c 00
+
+ASCII interpretation:
+ user32.dll 
+
+UTF-8 interpretation:
+ user32.dll 
+
+Hexdump view:
+0000:  00 75 73 65 72 33 32 2e 64 6c 6c 00               |.user32.dll.|
+
+Binary data saved to: decoded_block_4.bin
+
+============================================================
+
+Encrypted Block 5
+----------------------------------------
+XOR Key: 0x73
+Start Address: 0x00002005
+Block Size: 21 bytes
+
+Original encrypted bytes:
+73 14 17 1a 1f 5d 17 1f 1f 73 73 6d 6a 6d 6a 61 70 2a 60 68 68
+
+Decrypted data (hex):
+00 67 64 69 6c 2e 64 6c 6c 00 00 1e 19 1e 19 12 03 59 13 1b 1b
+
+ASCII interpretation:
+ gdil.dll  Y
+
+UTF-8 interpretation:
+ gdil.dll  Y
+
+Hexdump view:
+0000:  00 67 64 69 6c 2e 64 6c 6c 00 00 1e 19 1e 19 12   |.gdil.dll.......|
+0010:  03 59 13 1b 1b                                    |.Y...|
+
+Binary data saved to: decoded_block_5.bin
+
+============================================================
+
+Encrypted Block 6
+----------------------------------------
+XOR Key: 0xbe
+Start Address: 0x00002fcb
+Block Size: 21 bytes
+
+Original encrypted bytes:
+be d8 cc d7 da df 93 d6 db d2 ce db cc 93 88 8a 90 db c6 db be
+
+Decrypted data (hex):
+00 66 72 69 64 61 2d 68 65 6c 70 65 72 2d 36 34 2e 65 78 65 00
+
+ASCII interpretation:
+ frida-helper-64.exe 
+
+UTF-8 interpretation:
+ frida-helper-64.exe 
+
+Hexdump view:
+0000:  00 66 72 69 64 61 2d 68 65 6c 70 65 72 2d 36 34   |.frida-helper-64|
+0010:  2e 65 78 65 00                                    |.exe.|
+
+Binary data saved to: decoded_block_6.bin
+
+============================================================
+
+Encrypted Block 7
+----------------------------------------
+XOR Key: 0x32
+Start Address: 0x00003123
+Block Size: 19 bytes
+
+Original encrypted bytes:
+32 54 40 5b 56 53 1f 5a 57 5e 42 57 40 1f 1c 57 4a 57 32
+
+Decrypted data (hex):
+00 66 72 69 64 61 2d 68 65 6c 70 65 72 2d 2e 65 78 65 00
+
+ASCII interpretation:
+ frida-helper-.exe 
+
+UTF-8 interpretation:
+ frida-helper-.exe 
+
+Hexdump view:
+0000:  00 66 72 69 64 61 2d 68 65 6c 70 65 72 2d 2e 65   |.frida-helper-.e|
+0010:  78 65 00                                          |xe.|
+
+Binary data saved to: decoded_block_7.bin
+
+============================================================
+
+Encrypted Block 8
+----------------------------------------
+XOR Key: 0x9d
+Start Address: 0x0000327d
+Block Size: 34 bytes
+
+Original encrypted bytes:
+9d fe f5 f8 fc e9 f8 f3 fa f4 f3 f8 b0 e5 a5 ab c2 ab a9 b0 ce ce d8 a9 b0 dc cb c5 af b3 f8 e5 f8 9d
+
+Decrypted data (hex):
+00 63 68 65 61 74 65 6e 67 69 6e 65 2d 78 38 36 5f 36 34 2d 53 53 45 34 2d 41 56 58 32 2e 65 78 65 00
+
+ASCII interpretation:
+ cheatengine-x86_64-SSE4-AVX2.exe 
+
+UTF-8 interpretation:
+ cheatengine-x86_64-SSE4-AVX2.exe 
+
+Hexdump view:
+0000:  00 63 68 65 61 74 65 6e 67 69 6e 65 2d 78 38 36   |.cheatengine-x86|
+0010:  5f 36 34 2d 53 53 45 34 2d 41 56 58 32 2e 65 78   |_64-SSE4-AVX2.ex|
+0020:  65 00                                             |e.|
+
+Binary data saved to: decoded_block_8.bin
+
+============================================================
+
+Encrypted Block 9
+----------------------------------------
+XOR Key: 0x73
+Start Address: 0x00003416
+Block Size: 23 bytes
+
+Original encrypted bytes:
+73 10 1b 16 12 16 1d 14 1a 1d 16 5e 0b 4b 45 2c 45 47 5d 16 0b 16 73
+
+Decrypted data (hex):
+00 63 68 65 61 65 6e 67 69 6e 65 2d 78 38 36 5f 36 34 2e 65 78 65 00
+
+ASCII interpretation:
+ cheaengine-x86_64.exe 
+
+UTF-8 interpretation:
+ cheaengine-x86_64.exe 
+
+Hexdump view:
+0000:  00 63 68 65 61 65 6e 67 69 6e 65 2d 78 38 36 5f   |.cheaengine-x86_|
+0010:  36 34 2e 65 78 65 00                              |64.exe.|
+
+Binary data saved to: decoded_block_9.bin
+
+============================================================
+
+Encrypted Block 10
+----------------------------------------
+XOR Key: 0xba
+Start Address: 0x0000357f
+Block Size: 22 bytes
+
+Original encrypted bytes:
+ba d9 d2 df db ce df d4 dd d3 d4 df 97 d3 89 82 8c 94 df c2 df ba
+
+Decrypted data (hex):
+00 63 68 65 61 74 65 6e 67 69 6e 65 2d 69 33 38 36 2e 65 78 65 00
+
+ASCII interpretation:
+ cheatengine-i386.exe 
+
+UTF-8 interpretation:
+ cheatengine-i386.exe 
+
+Hexdump view:
+0000:  00 63 68 65 61 74 65 6e 67 69 6e 65 2d 69 33 38   |.cheatengine-i38|
+0010:  36 2e 65 78 65 00                                 |6.exe.|
+
+Binary data saved to: decoded_block_10.bin
+
+============================================================
+
+Encrypted Block 11
+----------------------------------------
+XOR Key: 0xe9
+Start Address: 0x000036de
+Block Size: 18 bytes
+
+Original encrypted bytes:
+e9 81 9d 9d 99 8d 8c 8b 9c 8e 8e 8c 9b c7 8c 91 8c e9
+
+Decrypted data (hex):
+00 68 74 74 70 64 65 62 75 67 67 65 72 2e 65 78 65 00
+
+ASCII interpretation:
+ httpdebugger.exe 
+
+UTF-8 interpretation:
+ httpdebugger.exe 
+
+Hexdump view:
+0000:  00 68 74 74 70 64 65 62 75 67 67 65 72 2e 65 78   |.httpdebugger.ex|
+0010:  65 00                                             |e.|
+
+Binary data saved to: decoded_block_11.bin
+
+============================================================
+
+Encrypted Block 12
+----------------------------------------
+XOR Key: 0x23
+Start Address: 0x00003827
+Block Size: 13 bytes
+
+Original encrypted bytes:
+23 65 4a 47 47 4f 46 51 0d 46 5b 46 23
+
+Decrypted data (hex):
+00 46 69 64 64 6c 65 72 2e 65 78 65 00
+
+ASCII interpretation:
+ Fiddler.exe 
+
+UTF-8 interpretation:
+ Fiddler.exe 
+
+Hexdump view:
+0000:  00 46 69 64 64 6c 65 72 2e 65 78 65 00            |.Fiddler.exe.|
+
+Binary data saved to: decoded_block_12.bin
+
+============================================================
+
+Encrypted Block 13
+----------------------------------------
+XOR Key: 0xae
+Start Address: 0x00003959
+Block Size: 20 bytes
+
+Original encrypted bytes:
+ae fc cb dd c1 db dc cd cb e6 cf cd c5 cb dc 80 cb d6 cb ae
+
+Decrypted data (hex):
+00 52 65 73 6f 75 72 63 65 48 61 63 6b 65 72 2e 65 78 65 00
+
+ASCII interpretation:
+ ResourceHacker.exe 
+
+UTF-8 interpretation:
+ ResourceHacker.exe 
+
+Hexdump view:
+0000:  00 52 65 73 6f 75 72 63 65 48 61 63 6b 65 72 2e   |.ResourceHacker.|
+0010:  65 78 65 00                                       |exe.|
+
+Binary data saved to: decoded_block_13.bin
+
+============================================================
+
+Encrypted Block 14
+----------------------------------------
+XOR Key: 0x30
+Start Address: 0x00003aac
+Block Size: 35 bytes
+
+Original encrypted bytes:
+30 5a 5f 55 52 5f 48 43 55 42 46 55 42 1e 55 48 55 30 6e 6b 61 66 6b 7c 67 6b 6a 70 76 6b 68 2a 61 7c 61
+
+Decrypted data (hex):
+00 6a 6f 65 62 6f 78 73 65 72 76 65 72 2e 65 78 65 00 5e 5b 51 56 5b 4c 57 5b 5a 40 46 5b 58 1a 51 4c 51
+
+ASCII interpretation:
+ joeboxserver.exe ^[QV[LW[Z@F[XQLQ
+
+UTF-8 interpretation:
+ joeboxserver.exe ^[QV[LW[Z@F[XQLQ
+
+Hexdump view:
+0000:  00 6a 6f 65 62 6f 78 73 65 72 76 65 72 2e 65 78   |.joeboxserver.ex|
+0010:  65 00 5e 5b 51 56 5b 4c 57 5b 5a 40 46 5b 58 1a   |e.^[QV[LW[Z@F[X.|
+0020:  51 4c 51                                          |QLQ|
+
+Binary data saved to: decoded_block_14.bin
+
+============================================================
+
+Encrypted Block 15
+----------------------------------------
+XOR Key: 0x41
+Start Address: 0x00003d43
+Block Size: 12 bytes
+
+Original encrypted bytes:
+41 36 28 2f 25 23 26 6f 24 39 24 41
+
+Decrypted data (hex):
+00 77 69 6e 64 62 67 2e 65 78 65 00
+
+ASCII interpretation:
+ windbg.exe 
+
+UTF-8 interpretation:
+ windbg.exe 
+
+Hexdump view:
+0000:  00 77 69 6e 64 62 67 2e 65 78 65 00               |.windbg.exe.|
+
+Binary data saved to: decoded_block_15.bin
+
+============================================================
+
+Encrypted Block 16
+----------------------------------------
+XOR Key: 0xae
+Start Address: 0x00003e70
+Block Size: 15 bytes
+
+Original encrypted bytes:
+ae dd c0 c7 c8 c8 f1 c6 c7 da 80 cb d6 cb ae
+
+Decrypted data (hex):
+00 73 6e 69 66 66 5f 68 69 74 2e 65 78 65 00
+
+ASCII interpretation:
+ sniff_hit.exe 
+
+UTF-8 interpretation:
+ sniff_hit.exe 
+
+Hexdump view:
+0000:  00 73 6e 69 66 66 5f 68 69 74 2e 65 78 65 00      |.sniff_hit.exe.|
+
+Binary data saved to: decoded_block_16.bin
+
+============================================================
+
+Encrypted Block 17
+----------------------------------------
+XOR Key: 0x9e
+Start Address: 0x00003fac
+Block Size: 17 bytes
+
+Original encrypted bytes:
+9e ed e7 ed df f0 ff f2 e7 e4 fb ec b0 fb e6 fb 9e
+
+Decrypted data (hex):
+00 73 79 73 41 6e 61 6c 79 7a 65 72 2e 65 78 65 00
+
+ASCII interpretation:
+ sysAnalyzer.exe 
+
+UTF-8 interpretation:
+ sysAnalyzer.exe 
+
+Hexdump view:
+0000:  00 73 79 73 41 6e 61 6c 79 7a 65 72 2e 65 78 65   |.sysAnalyzer.exe|
+0010:  00                                                |.|
+
+Binary data saved to: decoded_block_17.bin
+
+============================================================
+
+Encrypted Block 18
+----------------------------------------
+XOR Key: 0xa9
+Start Address: 0x000040f2
+Block Size: 19 bytes
+
+Original encrypted bytes:
+a9 d9 db c6 ca f6 c8 c7 c8 c5 d0 d3 cc db 87 cc d1 cc a9
+
+Decrypted data (hex):
+00 70 72 6f 63 5f 61 6e 61 6c 79 7a 65 72 2e 65 78 65 00
+
+ASCII interpretation:
+ proc_analyzer.exe 
+
+UTF-8 interpretation:
+ proc_analyzer.exe 
+
+Hexdump view:
+0000:  00 70 72 6f 63 5f 61 6e 61 6c 79 7a 65 72 2e 65   |.proc_analyzer.e|
+0010:  78 65 00                                          |xe.|
+
+Binary data saved to: decoded_block_18.bin
+
+============================================================
+
+Encrypted Block 19
+----------------------------------------
+XOR Key: 0xbe
+Start Address: 0x00004242
+Block Size: 18 bytes
+
+Original encrypted bytes:
+be ed c7 cd f7 d0 cd ce db dd ca d1 cc 90 db c6 db be
+
+Decrypted data (hex):
+00 53 79 73 49 6e 73 70 65 63 74 6f 72 2e 65 78 65 00
+
+ASCII interpretation:
+ SysInspector.exe 
+
+UTF-8 interpretation:
+ SysInspector.exe 
+
+Hexdump view:
+0000:  00 53 79 73 49 6e 73 70 65 63 74 6f 72 2e 65 78   |.SysInspector.ex|
+0010:  65 00                                             |e.|
+
+Binary data saved to: decoded_block_19.bin
+
+============================================================
+
+Encrypted Block 20
+----------------------------------------
+XOR Key: 0x32
+Start Address: 0x0000438b
+Block Size: 12 bytes
+
+Original encrypted bytes:
+32 7e 5d 40 56 62 77 1c 57 4a 57 32
+
+Decrypted data (hex):
+00 4c 6f 72 64 50 45 2e 65 78 65 00
+
+ASCII interpretation:
+ LordPE.exe 
+
+UTF-8 interpretation:
+ LordPE.exe 
+
+Hexdump view:
+0000:  00 4c 6f 72 64 50 45 2e 65 78 65 00               |.LordPE.exe.|
+
+Binary data saved to: decoded_block_20.bin
+
+============================================================
+
+Encrypted Block 21
+----------------------------------------
+XOR Key: 0x9d
+Start Address: 0x000044b8
+Block Size: 13 bytes
+
+Original encrypted bytes:
+9d cd d8 c9 f2 f2 f1 ee b3 f8 e5 f8 9d
+
+Decrypted data (hex):
+00 50 45 54 6f 6f 6c 73 2e 65 78 65 00
+
+ASCII interpretation:
+ PETools.exe 
+
+UTF-8 interpretation:
+ PETools.exe 
+
+Hexdump view:
+0000:  00 50 45 54 6f 6f 6c 73 2e 65 78 65 00            |.PETools.exe.|
+
+Binary data saved to: decoded_block_21.bin
+
+============================================================
+
+Encrypted Block 22
+----------------------------------------
+XOR Key: 0x73
+Start Address: 0x000045e8
+Block Size: 12 bytes
+
+Original encrypted bytes:
+73 3a 1e 1c 21 36 30 5d 16 0b 16 73
+
+Decrypted data (hex):
+00 49 6d 6f 52 45 43 2e 65 78 65 00
+
+ASCII interpretation:
+ ImoREC.exe 
+
+UTF-8 interpretation:
+ ImoREC.exe 
+
+Hexdump view:
+0000:  00 49 6d 6f 52 45 43 2e 65 78 65 00               |.ImoREC.exe.|
+
+Binary data saved to: decoded_block_22.bin
+
+============================================================
+
+Encrypted Block 23
+----------------------------------------
+XOR Key: 0xba
+Start Address: 0x00004724
+Block Size: 18 bytes
+
+Original encrypted bytes:
+ba f2 d5 d5 d1 ff c2 ca d6 d5 c8 df c8 94 df c2 df ba
+
+Decrypted data (hex):
+00 48 6f 6f 6b 45 78 70 6c 6f 72 65 72 2e 65 78 65 00
+
+ASCII interpretation:
+ HookExplorer.exe 
+
+UTF-8 interpretation:
+ HookExplorer.exe 
+
+Hexdump view:
+0000:  00 48 6f 6f 6b 45 78 70 6c 6f 72 65 72 2e 65 78   |.HookExplorer.ex|
+0010:  65 00                                             |e.|
+
+Binary data saved to: decoded_block_23.bin
+
+============================================================
+
+Encrypted Block 24
+----------------------------------------
+XOR Key: 0xe9
+Start Address: 0x0000486f
+Block Size: 13 bytes
+
+Original encrypted bytes:
+e9 8d 9c 84 99 8a 88 99 c7 8c 91 8c e9
+
+Decrypted data (hex):
+00 64 75 6d 70 63 61 70 2e 65 78 65 00
+
+ASCII interpretation:
+ dumpcap.exe 
+
+UTF-8 interpretation:
+ dumpcap.exe 
+
+Hexdump view:
+0000:  00 64 75 6d 70 63 61 70 2e 65 78 65 00            |.dumpcap.exe.|
+
+Binary data saved to: decoded_block_24.bin
+
+============================================================
+
+Encrypted Block 25
+----------------------------------------
+XOR Key: 0x23
+Start Address: 0x0000499f
+Block Size: 15 bytes
+
+Original encrypted bytes:
+23 74 4a 51 46 50 4b 42 51 48 0d 46 5b 46 23
+
+Decrypted data (hex):
+00 57 69 72 65 73 68 61 72 6b 2e 65 78 65 00
+
+ASCII interpretation:
+ Wireshark.exe 
+
+UTF-8 interpretation:
+ Wireshark.exe 
+
+Hexdump view:
+0000:  00 57 69 72 65 73 68 61 72 6b 2e 65 78 65 00      |.Wireshark.exe.|
+
+Binary data saved to: decoded_block_25.bin
+
+============================================================
+
+Encrypted Block 26
+----------------------------------------
+XOR Key: 0x46
+Start Address: 0x00004ad9
+Block Size: 21 bytes
+
+Original encrypted bytes:
+46 0f 2b 2b 33 28 2f 32 3f 23 24 33 21 21 23 34 68 23 3e 23 46
+
+Decrypted data (hex):
+00 49 6d 6d 75 6e 69 74 79 65 62 75 67 67 65 72 2e 65 78 65 00
+
+ASCII interpretation:
+ Immunityebugger.exe 
+
+UTF-8 interpretation:
+ Immunityebugger.exe 
+
+Hexdump view:
+0000:  00 49 6d 6d 75 6e 69 74 79 65 62 75 67 67 65 72   |.Immunityebugger|
+0010:  2e 65 78 65 00                                    |.exe.|
+
+Binary data saved to: decoded_block_26.bin
+
+============================================================
+
+Encrypted Block 27
+----------------------------------------
+XOR Key: 0xc9
+Start Address: 0x00004c38
+Block Size: 12 bytes
+
+Original encrypted bytes:
+c9 a0 ad a8 b8 ff fd e7 ac b1 ac c9
+
+Decrypted data (hex):
+00 69 64 61 71 36 34 2e 65 78 65 00
+
+ASCII interpretation:
+ idaq64.exe 
+
+UTF-8 interpretation:
+ idaq64.exe 
+
+Hexdump view:
+0000:  00 69 64 61 71 36 34 2e 65 78 65 00               |.idaq64.exe.|
+
+Binary data saved to: decoded_block_27.bin
+
+============================================================
+
+Encrypted Block 28
+----------------------------------------
+XOR Key: 0xae
+Start Address: 0x00004d65
+Block Size: 10 bytes
+
+Original encrypted bytes:
+ae c7 ca cf df 80 cb d6 cb ae
+
+Decrypted data (hex):
+00 69 64 61 71 2e 65 78 65 00
+
+ASCII interpretation:
+ idaq.exe 
+
+UTF-8 interpretation:
+ idaq.exe 
+
+Hexdump view:
+0000:  00 69 64 61 71 2e 65 78 65 00                     |.idaq.exe.|
+
+Binary data saved to: decoded_block_28.bin
+
+============================================================
+
+Encrypted Block 29
+----------------------------------------
+XOR Key: 0x30
+Start Address: 0x00004e86
+Block Size: 23 bytes
+
+Original encrypted bytes:
+30 40 42 5f 53 55 48 40 1e 55 48 55 30 76 61 63 69 6b 6a 2a 61 7c 61
+
+Decrypted data (hex):
+00 70 72 6f 63 65 78 70 2e 65 78 65 00 46 51 53 59 5b 5a 1a 51 4c 51
+
+ASCII interpretation:
+ procexp.exe FQSY[ZQLQ
+
+UTF-8 interpretation:
+ procexp.exe FQSY[ZQLQ
+
+Hexdump view:
+0000:  00 70 72 6f 63 65 78 70 2e 65 78 65 00 46 51 53   |.procexp.exe.FQS|
+0010:  59 5b 5a 1a 51 4c 51                              |Y[Z.QLQ|
+
+Binary data saved to: decoded_block_29.bin
+
+============================================================
+
+Encrypted Block 30
+----------------------------------------
+XOR Key: 0x41
+Start Address: 0x000050e1
+Block Size: 13 bytes
+
+Original encrypted bytes:
+41 31 33 2e 22 2c 2e 2f 6f 24 39 24 41
+
+Decrypted data (hex):
+00 70 72 6f 63 6d 6f 6e 2e 65 78 65 00
+
+ASCII interpretation:
+ procmon.exe 
+
+UTF-8 interpretation:
+ procmon.exe 
+
+Hexdump view:
+0000:  00 70 72 6f 63 6d 6f 6e 2e 65 78 65 00            |.procmon.exe.|
+
+Binary data saved to: decoded_block_30.bin
+
+============================================================
+
+Encrypted Block 31
+----------------------------------------
+XOR Key: 0xae
+Start Address: 0x00005213
+Block Size: 13 bytes
+
+Original encrypted bytes:
+ae c8 c7 c2 cb c3 c1 c0 80 cb d6 cb ae
+
+Decrypted data (hex):
+00 66 69 6c 65 6d 6f 6e 2e 65 78 65 00
+
+ASCII interpretation:
+ filemon.exe 
+
+UTF-8 interpretation:
+ filemon.exe 
+
+Hexdump view:
+0000:  00 66 69 6c 65 6d 6f 6e 2e 65 78 65 00            |.filemon.exe.|
+
+Binary data saved to: decoded_block_31.bin
+
+============================================================
+
+Encrypted Block 32
+----------------------------------------
+XOR Key: 0x9e
+Start Address: 0x00005345
+Block Size: 15 bytes
+
+Original encrypted bytes:
+9e ff eb ea f1 ec eb f0 ed fd b0 fb e6 fb 9e
+
+Decrypted data (hex):
+00 61 75 74 6f 72 75 6e 73 63 2e 65 78 65 00
+
+ASCII interpretation:
+ autorunsc.exe 
+
+UTF-8 interpretation:
+ autorunsc.exe 
+
+Hexdump view:
+0000:  00 61 75 74 6f 72 75 6e 73 63 2e 65 78 65 00      |.autorunsc.exe.|
+
+Binary data saved to: decoded_block_32.bin
+
+============================================================
+
+Encrypted Block 33
+----------------------------------------
+XOR Key: 0xa9
+Start Address: 0x00005481
+Block Size: 14 bytes
+
+Original encrypted bytes:
+a9 c8 dc dd c6 db dc c7 da 87 cc d1 cc a9
+
+Decrypted data (hex):
+00 61 75 74 6f 72 75 6e 73 2e 65 78 65 00
+
+ASCII interpretation:
+ autoruns.exe 
+
+UTF-8 interpretation:
+ autoruns.exe 
+
+Hexdump view:
+0000:  00 61 75 74 6f 72 75 6e 73 2e 65 78 65 00         |.autoruns.exe.|
+
+Binary data saved to: decoded_block_33.bin
+
+============================================================
+
+Encrypted Block 34
+----------------------------------------
+XOR Key: 0xbe
+Start Address: 0x000055b8
+Block Size: 13 bytes
+
+Original encrypted bytes:
+be ca dd ce c8 d7 db c9 90 db c6 db be
+
+Decrypted data (hex):
+00 74 63 70 76 69 65 77 2e 65 78 65 00
+
+ASCII interpretation:
+ tcpview.exe 
+
+UTF-8 interpretation:
+ tcpview.exe 
+
+Hexdump view:
+0000:  00 74 63 70 76 69 65 77 2e 65 78 65 00            |.tcpview.exe.|
+
+Binary data saved to: decoded_block_34.bin
+
+============================================================
+
+Encrypted Block 35
+----------------------------------------
+XOR Key: 0x32
+Start Address: 0x000056e8
+Block Size: 19 bytes
+
+Original encrypted bytes:
+32 62 40 5d 51 57 41 41 7a 53 51 59 57 40 1c 57 4a 57 32
+
+Decrypted data (hex):
+00 50 72 6f 63 65 73 73 48 61 63 6b 65 72 2e 65 78 65 00
+
+ASCII interpretation:
+ ProcessHacker.exe 
+
+UTF-8 interpretation:
+ ProcessHacker.exe 
+
+Hexdump view:
+0000:  00 50 72 6f 63 65 73 73 48 61 63 6b 65 72 2e 65   |.ProcessHacker.e|
+0010:  78 65 00                                          |xe.|
+
+Binary data saved to: decoded_block_35.bin
+
+============================================================
+
+Encrypted Block 36
+----------------------------------------
+XOR Key: 0x9d
+Start Address: 0x00005838
+Block Size: 13 bytes
+
+Original encrypted bytes:
+9d f2 f1 f1 e4 f4 fe f8 b3 f8 e5 f8 9d
+
+Decrypted data (hex):
+00 6f 6c 6c 79 69 63 65 2e 65 78 65 00
+
+ASCII interpretation:
+ ollyice.exe 
+
+UTF-8 interpretation:
+ ollyice.exe 
+
+Hexdump view:
+0000:  00 6f 6c 6c 79 69 63 65 2e 65 78 65 00            |.ollyice.exe.|
+
+Binary data saved to: decoded_block_36.bin
+
+============================================================
+
+Encrypted Block 37
+----------------------------------------
+XOR Key: 0x73
+Start Address: 0x00005968
+Block Size: 13 bytes
+
+Original encrypted bytes:
+73 1c 1f 1f 0a 17 11 14 5d 16 0b 16 73
+
+Decrypted data (hex):
+00 6f 6c 6c 79 64 62 67 2e 65 78 65 00
+
+ASCII interpretation:
+ ollydbg.exe 
+
+UTF-8 interpretation:
+ ollydbg.exe 
+
+Hexdump view:
+0000:  00 6f 6c 6c 79 64 62 67 2e 65 78 65 00            |.ollydbg.exe.|
+
+Binary data saved to: decoded_block_37.bin
